@@ -61,5 +61,6 @@ authRouter
       authToken: AuthService.createJwt(sub, payload),
     })
   })
+  
 
 module.exports = authRouter
