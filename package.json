@@ -14,6 +14,9 @@
   "keywords": [],
   "author": "Tom `tomatao` HT <tomht@thinkful.com>",
   "license": "MIT",
+  "engines": {
+    "node": "12.18.3"
+  },
   "dependencies": {
     "bcryptjs": "^2.4.3",
     "cors": "^2.8.5",
@@ -23,13 +26,13 @@
     "jsonwebtoken": "^8.5.0",
     "knex": "^0.21.15",
     "morgan": "^1.9.1",
-    "pg": "^7.8.2"
+    "pg": "^7.8.2",
+    "postgrator-cli": "^3.1.0"
   },
   "devDependencies": {
     "chai": "^4.2.0",
     "mocha": "^8.2.1",
-    "nodemon": "^1.18.9",
-    "postgrator-cli": "^3.1.0",
+    "nodemon": "^2.0.7",
     "supertest": "^3.3.0"
   }
 }
