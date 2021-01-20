@@ -56,7 +56,7 @@ const UserService = {
         .from('word_id_seq')
         .select('last_value')
         .first()
-
+        console.log("Comment:", seq);
       const languageWords = [
         ['sil vous plait', 'please', 2],
         ['bonsoir', 'good evening', 3],
